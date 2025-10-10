@@ -50,6 +50,7 @@
 | 牛奶桶（Milk Pail）       | `player_add (T)MilkPail`       |
 | 剪刀（Shears）           | `player_add (T)Shears`         |
 | 回程权杖（Return Scepter） | `player_add (T)ReturnScepter`  |
+| 木钓竿（Training Rod）  | `player_add (O)690 1` |
 
 ---
 
