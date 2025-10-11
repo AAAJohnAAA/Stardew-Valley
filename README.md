@@ -119,3 +119,88 @@ player_sethealth 100
 player_setstamina 270
 player_setmoney 9999999
 ```
+
+# 满级装备
+
+## ⚒️ 一、工具类（前缀 `(T)`）
+
+这些是游戏中最实用的「满级工具」。
+
+| 名称                         | 控制台 ID                  | 指令示例                               |
+| -------------------------- | ----------------------- | ---------------------------------- |
+| 铱斧 (Iridium Axe)           | `(T)IridiumAxe`         | `player_add (T)IridiumAxe`         |
+| 铱锄 (Iridium Hoe)           | `(T)IridiumHoe`         | `player_add (T)IridiumHoe`         |
+| 铱镐 (Iridium Pickaxe)       | `(T)IridiumPickaxe`     | `player_add (T)IridiumPickaxe`     |
+| 铱水壶 (Iridium Watering Can) | `(T)IridiumWateringCan` | `player_add (T)IridiumWateringCan` |
+| 铱钓竿 (Iridium Rod)          | `(T)IridiumRod`         | `player_add (T)IridiumRod`         |
+| 铱垃圾桶 (Iridium Trash Can)   | `(T)IridiumTrashCan`    | `player_add (T)IridiumTrashCan`    |
+| 铱淘金盘 (Iridium Pan)         | `(T)IridiumPan`         | `player_add (T)IridiumPan`         |
+
+---
+
+## 🗡️ 二、武器类（前缀 `(W)`）
+
+| 名称                   | 控制台 ID  | 指令示例               |
+| -------------------- | ------- | ------------------ |
+| 铱针 (Iridium Needle)  | `(W)61` | `player_add (W)61` |
+| 铱镰刀 (Iridium Scythe) | `(W)66` | `player_add (W)66` |
+
+> 💬 注意：镰刀在游戏中被归类为「武器 (Weapon)」，不是「工具 (Tool)」。
+
+---
+
+## 💍 三、饰品与矿物（前缀 `(O)`）
+
+| 名称                       | 控制台 ID   | 指令示例                   |
+| ------------------------ | -------- | ---------------------- |
+| 铱锭 (Iridium Bar)         | `(O)337` | `player_add (O)337 10` |
+| 铱矿 (Iridium Ore)         | `(O)386` | `player_add (O)386 50` |
+| 铱戒指 (Iridium Band)       | `(O)527` | `player_add (O)527`    |
+| 铱洒水器 (Iridium Sprinkler) | `(O)645` | `player_add (O)645`    |
+| 铱牛奶 (Iridium Milk)       | `(O)803` | `player_add (O)803`    |
+
+---
+
+## 🪑 四、家具类（前缀 `(F)`）
+
+| 名称                       | 控制台 ID    | 指令示例                 |
+| ------------------------ | --------- | -------------------- |
+| 铱壁炉 (Iridium Fireplace)  | `(F)1796` | `player_add (F)1796` |
+| 铱克罗布斯雕像 (Iridium Krobus) | `(F)2396` | `player_add (F)2396` |
+
+---
+
+## 👕 五、服装装备（前缀 `(S)` 或 `(H)`）
+
+| 名称                          | 控制台 ID             | 指令示例                          |
+| --------------------------- | ------------------ | ----------------------------- |
+| 铱胸甲 (Iridium Breastplate)   | `(S)1151`          | `player_add (S)1151`          |
+| 铱能量衫 (Iridium Energy Shirt) | `(S)1179`          | `player_add (S)1179`          |
+| 铱锅帽 (Iridium Pan Hat)       | `(H)IridiumPanHat` | `player_add (H)IridiumPanHat` |
+
+---
+
+## 🐴 六、马具类（前缀 `(TR)`）
+
+| 名称                | 控制台 ID            | 指令示例                         |
+| ----------------- | ----------------- | ---------------------------- |
+| 铱马刺 (IridiumSpur) | `(TR)IridiumSpur` | `player_add (TR)IridiumSpur` |
+
+---
+
+## 💎 七、一键获得全部铱级工具指令合集
+
+如果你想一口气拿齐所有 **满级工具 + 镰刀**：
+
+```bash
+player_add (T)IridiumAxe
+player_add (T)IridiumHoe
+player_add (T)IridiumPickaxe
+player_add (T)IridiumWateringCan
+player_add (T)IridiumRod
+player_add (T)IridiumTrashCan
+player_add (T)IridiumPan
+player_add (W)66
+```
+
+---
